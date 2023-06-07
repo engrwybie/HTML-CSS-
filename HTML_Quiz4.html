@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Things</title>
+</head>
+
+<body>
+    <form action="your_html_file.html?">
+        <h1>My Favorite Things</h1>
+        <h2>Books I've Read</h2>
+        <ul>
+        <li><label for="lord of the rings">The Lord of the Rings</label></li>
+        <input type="checkbox" id="lord of the rings" name="lord of the rings">
+        <li><label for="mockingbird">To Kill a Mockingbird</label></li>
+        <input type="checkbox" id="mockingbird" name="mockingbird>"
+        <li><label for="great gatsby">The Great Gatsby</label></li>
+        <input type="checkbox" id="great gatsby" name="great gatsby">
+        </ul>
+
+        <div>
+            <h2>Movies Ratings</h2>
+            <ul>
+                <li>
+                    <label for="shawshank">The Shawshank Redemption:</label>
+                    <input type="range" id="shawshank" name="shawshank" min="1" max="10">
+                </li>
+                
+                <li>
+                    <label for="godfather">The Godfather:</label>
+                    <input type="range" id="godfather" name="godfather" min="1" max="10">
+                </li>
+
+                <li>
+                    <label for="pulp fiction">Pulp Fiction:</label>
+                    <input type="range" id="pulp fiction" name="pulp fiction" min="1" max="10">
+                </li>
+
+            </ul>
+
+        </div>
+
+        <h2>Best Music</h2>
+        <ol>
+            <li>
+                <label for="beatles">The Beatles</label>
+                <input type="radio" id="beatles" name="music" value="The Beatles">
+            </li>
+            <li>
+                <label for="bob dylan">Bob Dylan</label>
+                <input type="radio" id="bob dylan" name="music" value="Bob Dylan">
+            </li>
+
+            <li>
+                <label for="johnny cash">Johnny Cash</label>
+                <input type="radio" id="johnny cash" name="music" value="Johnny Cash">
+            </li>
+
+        </ol>
+    </form>
+</body>
+</html>
